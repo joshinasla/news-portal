@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+
 import { updateTopStories } from "../redux/action";
+
 import SingleItem from "../components/SingleItem";
 
 class TopStories extends Component {
@@ -13,7 +15,7 @@ class TopStories extends Component {
         return res.json();
       })
       .then((topStorie) => {
-        var topStories = topStorie.slice(0, 5);
+        var topStories = topStorie.slice(0, 200);
         console.log("djsahdash", { topStories });
         this.props.updateTopStories(topStories);
       });

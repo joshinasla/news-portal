@@ -1,12 +1,13 @@
 import React from "react";
-
-import "./App.css";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { Provider } from "react-redux";
+
+import store from "./redux/store";
+
 import TopStories from "./pages/TopStories";
 import BestStories from "./pages/BestStories";
 import NewStories from "./pages/NewStories";
-import { Provider } from "react-redux";
-import store from "./redux/store";
+import "./App.css";
 
 function App() {
   return (

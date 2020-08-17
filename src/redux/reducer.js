@@ -4,6 +4,7 @@ const initialState = {
   newStories: [],
   itemDetails: [],
 };
+
 export const myReducer = (state = initialState, action) => {
   switch (action.type) {
     case "UPDATE_TOP_STORIES":

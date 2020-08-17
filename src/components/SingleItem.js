@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import ReduxTopStories from "../pages/TopStories";
+
 import { updateItemDetails } from "../redux/action";
+
 import "./SingleItem.css";
+
 class SingleItem extends Component {
   constructor(state) {
     super(state);

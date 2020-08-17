@@ -5,6 +5,7 @@ export const updateTopStories = (payload) => {
     payload,
   };
 };
+
 export const updateItemDetails = (itemDetails) => {
   console.log("itemrenders");
   return {
@@ -12,6 +13,7 @@ export const updateItemDetails = (itemDetails) => {
     itemDetails: itemDetails,
   };
 };
+
 export const updateBestStories = (payload) => {
   console.log("beststory");
   return {
@@ -19,6 +21,7 @@ export const updateBestStories = (payload) => {
     payload,
   };
 };
+
 export const updateNewStories = (payload) => {
   console.log("newstory");
   return {
