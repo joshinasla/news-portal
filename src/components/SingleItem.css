@@ -1,0 +1,47 @@
+.container {
+  padding: 20px;
+  padding-top: 100px;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 240px;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.title {
+  text-align: left;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  height: 150px;
+}
+
+.author {
+  text-align: right;
+  font-size: 14px;
+  color: black;
+  margin-top: 6px;
+}
+
+.btn {
+  position: absolute;
+  font-size: 11px;
+  font-weight: bold;
+  float: right;
+  padding: 10px 20px;
+
+  border: 2px solid;
+  border-radius: 20px;
+  bottom: 10px;
+  right: 10px;
+
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
